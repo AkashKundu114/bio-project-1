@@ -59,9 +59,6 @@
   </ol>
 </p>
 </font>
-
-    </svg>
-    <script>
-    </script>     
+</svg>
 </body>
 </html>
