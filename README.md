@@ -1,28 +1,17 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
-  
-<title>Biology Project "FOR"</title>
+  <title>Biology Project</title>
 </head>
-<body>
-<a href="https://akashkundu114.github.io/">
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-Short Description "FOR"
-</a>
-
+<body bgcolor="000000">
 <font face = "Comic Sans MS" color = "00ffff" size = "5">
 <p align = center>
+<br>
   The 5 R's stand for <u>refuse</u>, <u>reuse</u>, <u>reduce</u>, <u>recycle</u> and <u>repurpose</u>.
 </p>  
 </font>
- <br>
-<hr>
 <br>
-<font face = "Comic Sans MS" color = "a834eb" size = "4">
+<br>
+<font face = "Lucida Console" color = "a834eb" size = "4">
 <p align = center>
   <ol type="1">
     <li>
@@ -57,7 +46,6 @@ Short Description "FOR"
     <br>
   </ol>
 </p>
-</font>
-</svg>
+</font>   
 </body>
 </html>
