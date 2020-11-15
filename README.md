@@ -4,16 +4,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css" type="text/css">
   
-  <title>Biology Project</title>
+<title>Biology Project "FOR"</title>
 </head>
 <body>
 <a href="https://akashkundu114.github.io/">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    Short Description "FOR"
-  </a>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+Short Description "FOR"
+</a>
 
 <font face = "Comic Sans MS" color = "00ffff" size = "5">
 <p align = center>
