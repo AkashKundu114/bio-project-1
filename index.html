@@ -1,26 +1,94 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <title>Biology Project</title>
+<title>
+Biology Project 
+</title>
 </head>
-<body bgcolor="000000" left margin = "60" right margin = "60">
-<font face = "Comic Sans MS" color = "00ffff" size = "5">
-<p align = center>
+<font face = "Comic Sans MS" color = "00ff7f" size = "4">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body bgcolor="090909">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://bio-project.netlify.app">Introduction</a>
+  <a href="https://bio-project.netlify.app/for.html">Defines</a>
+  <a href="https://bio-project.netlify.app/against.html">Against</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<blockquote cite="index.html">
+ <p align = center>
 <br>
-  The 5 R's stand for <u>Refuse</u>, <u>Reuse</u>, <u>Reduce</u>, <u>Recycle</u> and <u>Repurpose</u>.
+  The 5 R's stand for <u>refuse</u>, <u>reuse</u>, <u>reduce</u>, <u>recycle</u> and <u>repurpose</u>.
 </p>  
 </font>
-<p align = left>
+<p align = center>
 <font face = "Comic Sans MS" color = "00ff7f" size = "4">
 <br>
-Recycling is usually number one on our list, but today, it's last... According to the 5 R's, four actions should be taken, if possible, prior to 'recycling': refuse, reduce, reuse, repurpose, and then recycle. Incorporating this methodology into your business' waste reduction and recycling efforts will minimize landfill waste and help take your recycling program to the next level. In this post, we explain each of the 5 R's and the benefits of putting them into practice at your business. Applying the 5 R's to your business' waste management and recycling strategies can positively impact the outcome of your program by significantly reducing the amount of waste your business generates. In the 5 R's hierarchy, remember to treat recycling as a last resort after attempting to refuse, reduce, reuse, or repurpose. Before disposing of your waste, walk through each of these steps in the following order:
-<br>
-<br>
+Recycling is usually number one on our list, but today, it's last... According to the 5 R's, four actions should be taken, if possible, prior to 'recycling': refuse, reduce, reuse, repurpose, and then recycle. Incorporating this methodology into your business' waste reduction and recycling efforts will minimize landfill waste and help take your recycling program to the next level. In this post, we explain each of the 5 R's and the benefits of putting them into practice at your business. Applying the 5 R's to your business' waste management and recycling strategies can positively impact the outcome of your program by significantly reducing the amount of waste your business generates. In the 5 R's hierarchy, remember to treat recycling as a last resort after attempting to refuse, reduce, reuse, or repurpose.
 </p>
-<p align = center>
-To see the "for" part <a href="for.html">click here</a>, to see the "against" part <a href="against.html">click here</a> and you will get description on each topic there.
+</blockquote>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<br><br><br><br><br><br><br><br>
+<p align="center">
+© Akash Kundu
 </p>
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<p align="right">© Akash Kundu (@akashkundu114)</p>
 </font>
 </body>
-</html>
+</html> 

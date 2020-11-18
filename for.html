@@ -1,19 +1,70 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <title>Biology Project</title>
+<title>
+Biology Project 
+</title>
 </head>
-<body bgcolor="000000">
-<font face = "Comic Sans MS" color = "00ffff" size = "5">
-<p align = center>
-<br>
-  Debate Part "FOR"
-</p>  
-</font>
-<br>
-<br>
 <font face = "Comic Sans MS" color = "00ff7f" size = "4">
-<p align = left>
-  <ol type="1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body bgcolor="090909">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://bio-project.netlify.app">Introduction</a>
+  <a href="https://bio-project.netlify.app/for.html">Defines</a>
+  <a href="https://bio-project.netlify.app/against.html">Against</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<blockquote cite="for.html">
+<ol type="1">
     <li>
       <b>Refuse</b>: The first element of the 5 R's hierarchy. Learning to refuse waste can take some practice, but incorporating this step into your business' strategy is the most effective way to minimize waste.
     </li>
@@ -45,8 +96,20 @@
     <hr>
     <br>
   </ol>
+</blockquote>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<p align="center">
+© Akash Kundu
 </p>
-<p align="right">© Akash Kundu (@akashkundu114)</p>
-</font>   
+</font>
 </body>
-</html>
+</html> 
